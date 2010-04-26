@@ -1,4 +1,6 @@
 #summary Guide for Flex-IFrame administrators.
 #labels Featured,Phase-Implementation
 
+----
+== Releasing new versions ==
 * Coming soon...*
