@@ -1,2 +1,18 @@
 #summary Guide for flex-iframe developers.
 #labels Featured,Phase-Implementation
+
+= Get Flex-IFrame sources =
+Follow the instructions [http://code.google.com/p/flex-iframe/source/checkout here].
+
+= Build Flex-IFrame =
+
+== Using Flex/Flash builder ==
+You can import the `library` module and each of the examples as Flex projects.
+
+== Using Maven ==
+This is the preferred way to build Flex-IFrame, because it does much more than just compiling the SWC: it runs unit tests, generates the asdoc, builds the examples, packages the sources and the assembly you can find on the on the download page.
+
+To build the project, you must have [http://maven.apache.org/download.html Maven]. Then just run the following command at the root of the project:
+{{{
+mvn clean install
+}}}
