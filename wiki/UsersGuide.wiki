@@ -58,4 +58,3 @@ import com.google.code.flexiframe.IFrame;
 }}}
 
 You can find several example sources [http://code.google.com/p/flex-iframe/source/browse/#svn/trunk/examples here], and with their builds [http://repo1.maven.org/maven2/com/google/code/flex-iframe/examples/ here].
-----
