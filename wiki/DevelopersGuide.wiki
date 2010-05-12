@@ -18,12 +18,12 @@ To build the project, you must have [http://maven.apache.org/download.html Maven
 You must add some repositoires to Maven's [http://maven.apache.org/settings.html settings.xml] file:
 {{{
   <activeProfiles>
-    <activeProfile>repositories-flex</activeProfile>
+    <activeProfile>flex</activeProfile>
   </activeProfiles>
 
   <profiles>
     <profile>
-      <id>repositories-flex</id>
+      <id>flex</id>
       <repositories>
         <repository>
           <id>flex-mojos-repository</id>
@@ -47,6 +47,7 @@ You must add some repositoires to Maven's [http://maven.apache.org/settings.html
             <enabled>false</enabled>
           </snapshots>
         </pluginRepository>
+      </pluginRepositories>
     </profile>
   </profiles>
 }}}
