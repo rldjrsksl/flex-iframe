@@ -13,7 +13,45 @@ You can import the `library` module and each of the examples as Flex projects.
 === Using Maven ===
 This is the preferred way to build Flex-IFrame, because it does much more than just compiling the SWC: it runs unit tests, generates the asdoc, builds the examples, packages the sources and the assembly you can find on the download page.
 
-To build the project, you must have [http://maven.apache.org/download.html Maven]. Then just run the following command at the root of the project:
+To build the project, you must have [http://maven.apache.org/download.html Maven].
+
+You must add some repositoires to Maven's [http://maven.apache.org/settings.html settings.xml] file:
+{{{
+  <activeProfiles>
+    <activeProfile>repositories-flex</activeProfile>
+  </activeProfiles>
+
+  <profiles>
+    <profile>
+      <id>repositories-flex</id>
+      <repositories>
+        <repository>
+          <id>flex-mojos-repository</id>
+          <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>flex-mojos-plugin-repository</id>
+          <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
+    </profile>
+  </profiles>
+}}}
+
+Then just run the following command at the root of the project:
 {{{
 mvn clean install
 }}}
