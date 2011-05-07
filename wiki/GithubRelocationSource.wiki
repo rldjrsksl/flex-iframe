@@ -1,0 +1,3 @@
+#summary Page displayed as source tab after project moved to Github.
+
+Source code has been relocated [https://github.com/nicoulaj/flex-iframe here].
