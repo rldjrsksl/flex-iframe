@@ -1,5 +1,5 @@
 #summary Guide for flex-iframe developers.
-#labels Featured,Phase-Implementation
+#labels Phase-Implementation
 ----
 == Get Flex-IFrame sources ==
 Follow the instructions [http://code.google.com/p/flex-iframe/source/checkout here].
