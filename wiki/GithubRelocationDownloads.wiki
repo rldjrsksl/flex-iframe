@@ -1,0 +1,3 @@
+#summary Page displayed as downloads tab after project moved to Github.
+
+Downloads have been relocated [https://github.com/nicoulaj/flex-iframe/downloads here].
