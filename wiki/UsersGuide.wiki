@@ -1,5 +1,5 @@
 #summary How to use flex-iframe in your project.
-#labels Featured,Phase-Deploy
+#labels Phase-Deploy
 ----
 == Import Flex-IFrame swc in your project ==
 
