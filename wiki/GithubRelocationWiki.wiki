@@ -1,3 +1,3 @@
 #summary Page displayed as wiki tab after project moved to Github.
 
-Wiki has been relocated [https://github.com/nicoulaj/flex-iframe/wiki here].
+Wiki has been relocated [https://github.com/flex-users/flex-iframe/wiki here].
